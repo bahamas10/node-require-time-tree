@@ -1,0 +1,23 @@
+{
+  "name": "require-time-tree",
+  "version": "0.0.0",
+  "description": "Calculate a tree object for all require statements with timing",
+  "main": "./lib/tree",
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-require-time-tree.git"
+  },
+  "keywords": [
+    "require",
+    "time",
+    "tree"
+  ],
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "license": "MIT",
+  "dependencies": {
+    "assert-plus": "^1.0.0"
+  }
+}
